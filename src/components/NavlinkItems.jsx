@@ -5,8 +5,8 @@ const NavlinkItems = () => {
     return (
         <>
             <NavLink to="/" className={({ isActive }) => isActive && active}>Home</NavLink>
-            <NavLink to="listed-books" className={({ isActive }) => isActive && active}>Listed Books</NavLink>
-            <NavLink to="pages-to-read" className={({ isActive }) => isActive && active}>Pages to Read</NavLink>
+            <NavLink to="/listed-books" className={({ isActive }) => isActive && active}>Listed Books</NavLink>
+            <NavLink to="/pages-to-read" className={({ isActive }) => isActive && active}>Pages to Read</NavLink>
         </>
     );
 };
