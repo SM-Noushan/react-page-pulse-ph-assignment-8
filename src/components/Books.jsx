@@ -11,6 +11,8 @@ const Books = ({ books, styles = "" }) => {
                 }
             </div>
             <div className="text-center mt-12">
+                {
+                }
                 <Button label={'See All Books'} url="#" styles="bg-green-01 btn-md w-44 hover:bg-green-01/80 text-white" />
             </div>
         </section>
