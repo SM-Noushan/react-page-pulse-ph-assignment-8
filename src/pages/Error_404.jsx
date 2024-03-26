@@ -8,7 +8,7 @@ const Error_404 = () => {
                     <h2 className="mb-8 font-extrabold text-7xl md:text-9xl text-gray-600">
                         <span className="sr-only">Error</span>404
                     </h2>
-                    <p className="text-2xl font-semibold md:text-3xl">Sorry, we couldn't find this page.</p>
+                    <p className="text-2xl font-semibold md:text-3xl">Sorry, we couldn&apos;t find this page.</p>
                     <p className="mt-4 mb-8 text-gray-400">But dont worry, you can find plenty of other things on our homepage.</p>
                     <Link to="/" className="relative inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold text-dark-01 transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 group">
                         <span className="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-error group-hover:h-full"></span>
