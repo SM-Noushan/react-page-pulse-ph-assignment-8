@@ -1,0 +1,206 @@
+[
+    {
+        "bookId": 1,
+        "bookName": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "image": "./assets/book_covers/to_kill_a_mocking_bird.jpg",
+        "review": "A timeless classic that delves deep into the complexities of morality, justice, and prejudice in the American South.",
+        "totalPages": 336,
+        "rating": 4.5,
+        "category": "Fiction",
+        "tags": [
+            "Classic",
+            "Drama",
+            "Social Issues"
+        ],
+        "publisher": "J.B. Lippincott & Co.",
+        "yearOfPublishing": 1960
+    },
+    {
+        "bookId": 2,
+        "bookName": "1984",
+        "author": "George Orwell",
+        "image": "./assets/book_covers/1984.jpg",
+        "review": "A chilling portrayal of a dystopian society where freedom is suppressed and individuality is forbidden. Orwell's warning about the dangers of totalitarianism remains relevant today.",
+        "totalPages": 328,
+        "rating": 4.7,
+        "category": "Science Fiction",
+        "tags": [
+            "Dystopian",
+            "Political",
+            "Social Commentary"
+        ],
+        "publisher": "Secker & Warburg",
+        "yearOfPublishing": 1949
+    },
+    {
+        "bookId": 3,
+        "bookName": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "image": "./assets/book_covers/the_great_gatsby.jpg",
+        "review": "The world and his mistress are at Jay Gatsby's party. But Gatsby stands apart from the crowd, isolated by a secret longing. In between sips of champagne his guests speculate about their mysterious host. Some say he's a bootlegger. Others swear he was a German spy during the war. They lean in and whisper 'he killed a man once'. Just where is Gatsby from and what is the obsession that drives him?",
+        "totalPages": 180,
+        "rating": 4.6,
+        "category": "Fiction",
+        "tags": [
+            "Classic",
+            "Romance",
+            "Tragedy"
+        ],
+        "publisher": "Charles Scribner's Sons",
+        "yearOfPublishing": 1925
+    },
+    {
+        "bookId": 4,
+        "bookName": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "image": "./assets/book_covers/the_catcher_in_the_rye.jpg",
+        "review": "It's Christmas and Holden Caulfield has just been expelled from yet another school. Fleeing the crooks at Pencey Prep, he pinballs around New York City seeking solace in fleeting encounters - shooting the bull with strangers in dive hotels, wandering alone round Central Park, getting beaten up by pimps and cut down by erstwhile girlfriends.",
+        "totalPages": 224,
+        "rating": 4.4,
+        "category": "Fiction",
+        "tags": [
+            "Coming of Age",
+            "Literary Fiction",
+            "Identity"
+        ],
+        "publisher": "Little, Brown and Company",
+        "yearOfPublishing": 1951
+    },
+    {
+        "bookId": 5,
+        "bookName": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "image": "./assets/book_covers/pride_and_prejudice.jpg",
+        "review": "Pride and Prejudice is one of six unforgettable Puffin Classics, brought together for International Women's Day in a stunning set in celebration of some of the most iconic female writers of the 19th and early 20th centuries.",
+        "totalPages": 279,
+        "rating": 4.8,
+        "category": "Fiction",
+        "tags": [
+            "Romance",
+            "Satire",
+            "Regency Era"
+        ],
+        "publisher": "T. Egerton, Whitehall",
+        "yearOfPublishing": 1813
+    },
+    {
+        "bookId": 6,
+        "bookName": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "image": "./assets/book_covers/the_hobbit.jpg",
+        "review": "Tolkien's enchanting tale of adventure, courage, and friendship transports readers to the magical world of Middle-earth, where unexpected heroes embark on an epic quest to reclaim treasure from a fearsome dragon.",
+        "totalPages": 310,
+        "rating": 4.9,
+        "category": "Fantasy",
+        "tags": [
+            "Adventure",
+            "Epic Fantasy",
+            "Quest"
+        ],
+        "publisher": "George Allen & Unwin",
+        "yearOfPublishing": 1937
+    },
+    {
+        "bookId": 7,
+        "bookName": "The Alchemist",
+        "author": "Paulo Coelho",
+        "image": "./assets/book_covers/the_alchemist.jpg",
+        "review": "Coelho's philosophical tale about following one's dreams and discovering the true meaning of life resonates with readers around the world, inspiring them to embark on their own personal journeys of self-discovery.",
+        "totalPages": 208,
+        "rating": 4.6,
+        "category": "Fiction",
+        "tags": [
+            "Philosophical",
+            "Adventure",
+            "Quest"
+        ],
+        "publisher": "HarperCollins",
+        "yearOfPublishing": 1988
+    },
+    {
+        "bookId": 8,
+        "bookName": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "image": "./assets/book_covers/the_hobbit.jpg",
+        "review": "It’s easy for new fans to get overwhelmed by the sprawling mythology and complexity of the six films that make up Peter Jackson’s epic trilogies. Unlike encyclopedias and guides that offer diehard J.R.R. Tolkien fans trivia, details, and deep dives into every on-screen moment, this first-of-its kind explainer is an easy, fun, and accessible introduction to the characters, plots, and interconnected stories that make up one of the greatest pop culture franchises of all time.",
+        "totalPages": 1216,
+        "rating": 4.9,
+        "category": "Fantasy",
+        "tags": [
+            "Epic Fantasy",
+            "Adventure",
+            "Quest"
+        ],
+        "publisher": "George Allen & Unwin",
+        "yearOfPublishing": 1954
+    },
+    {
+        "bookId": 9,
+        "bookName": "Harry Potter and the Sorcerer's Stone",
+        "author": "J.K. Rowling",
+        "image": "./assets/book_covers/harry_potter_and_the_sorcerer's_stone.jpg",
+        "review": "Rowling's magical tale introduces readers to the captivating world of Hogwarts School of Witchcraft and Wizardry, where young Harry Potter discovers his true identity and embarks on a journey to confront the dark wizard Voldemort.",
+        "totalPages": 320,
+        "rating": 4.7,
+        "category": "Fantasy",
+        "tags": [
+            "Magic",
+            "Adventure",
+            "Friendship"
+        ],
+        "publisher": "Bloomsbury",
+        "yearOfPublishing": 1997
+    },
+    {
+        "bookId": 10,
+        "bookName": "The Da Vinci Code",
+        "author": "Dan Brown",
+        "image": "./assets/book_covers/the_da_vinci_code.jpg",
+        "review": "Brown's gripping thriller combines art, history, and mystery as Harvard symbologist Robert Langdon races against time to unravel a deadly conspiracy that spans centuries.",
+        "totalPages": 481,
+        "rating": 4.2,
+        "category": "Thriller",
+        "tags": [
+            "Mystery",
+            "Conspiracy",
+            "Art"
+        ],
+        "publisher": "Doubleday",
+        "yearOfPublishing": 2003
+    },
+    {
+        "bookId": 11,
+        "bookName": "The Glory Games",
+        "author": "Hunter Davies",
+        "image": "./assets/book_covers/the_glory_games.jpg",
+        "review": "Davies spent a whole season with the team, training with them, visiting the players' homes and witnessing the dressing-room confrontations. In the modern era of painstaking media management and tight security, no sportswriter will ever again be granted such unprecedented access. While some features of the game have changed beyond all recognition - notably the all-consuming role that money now plays - inside every club the dramas and tensions revealed by Davies remain, making the book a timeless classic and securing its position as one of the best books about football ever written.",
+        "totalPages": 384,
+        "rating": 4.3,
+        "category": "Young Adult",
+        "tags": [
+            "Drama",
+            "Sport",
+            "Action"
+        ],
+        "publisher": "Mainstream Publishing",
+        "yearOfPublishing": 2005
+    },
+    {
+        "bookId": 12,
+        "bookName": "The Fault in Our Stars",
+        "author": "John Green",
+        "image": "./assets/book_covers/the_fault_in_our_stars.jpg",
+        "review": "From John Green, #1 bestselling author of The Anthropocene Reviewed and Turtles All the Way Down,The Fault in Our Stars is insightful, bold, irreverent, and raw. It brilliantly explores the funny, thrilling, and tragic business of being alive and in love.",
+        "totalPages": 313,
+        "rating": 4.5,
+        "category": "Young Adult",
+        "tags": [
+            "Romance",
+            "Illness",
+            "Friendship"
+        ],
+        "publisher": "Dutton Books",
+        "yearOfPublishing": 2012
+    }
+]
