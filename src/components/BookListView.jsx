@@ -4,7 +4,7 @@ import { TbWallpaper } from "react-icons/tb";
 import { CiSquareRemove } from "react-icons/ci";
 import Button from "./Button";
 
-const BookListView = ({ book, handleDelete, handleSort }) => {
+const BookListView = ({ book, handleDelete = 'topG' }) => {
     const {
         bookId,
         image,
@@ -24,7 +24,9 @@ const BookListView = ({ book, handleDelete, handleSort }) => {
     return (
         <div className="flex flex-col md:flex-row border border-dark-01/15 p-6 rounded-2xl gap-6">
             <div className="rounded-2xl mx-auto bg-dark-01/5 size-80 md:size-60 flex justify-center items-center relative">
-                <button onClick={handleLocaleDelete} className="absolute z-10 top-1 md:top-3.5 right-9 transition hover:scale-105"><CiSquareRemove className="text-error" size={40} /></button>
+                {
+                    handleDelete !== 'topG' ? <button onClick={handleLocaleDelete} className="absolute z-10 top-1 md:top-3.5 right-9 transition hover:scale-105"><CiSquareRemove className="text-error" size={40} /></button> : ''
+                }
                 <img className="w-52 md:w-32 h-72 md:h-44" src={`.${image}`} alt="book-cover" />
             </div>
             <div className="flex-1 space-y-2 lg:space-y-4">
@@ -65,7 +67,7 @@ const BookListView = ({ book, handleDelete, handleSort }) => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 

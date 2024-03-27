@@ -8,6 +8,7 @@ const NavlinkItems = () => {
             <NavLink to="/our-collection" className={({ isActive }) => isActive ? active : ''}>Our Collection</NavLink>
             <NavLink to="/listed-books" className={({ isActive }) => isActive ? active : ''}>Listed Books</NavLink>
             <NavLink to="/pages-to-read" className={({ isActive }) => isActive ? active : ''}>Pages to Read</NavLink>
+            <NavLink to="/our-offers" className={({ isActive }) => isActive ? active : ''}>Offers</NavLink>
         </>
     );
 };
