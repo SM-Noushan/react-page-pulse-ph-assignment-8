@@ -9,7 +9,7 @@ const BookCard = ({ book }) => {
         author,
         category,
         rating
-    } = book
+    } = book;
     return (
         <Link to={`/book/${bookId}`} className="flex flex-col max-w-sm p-6 space-y-6 overflow-hidden rounded-2xl border border-dark-01/15 font-work_sans cursor-pointer transition group md:hover:scale-105 hover:border-dark-01/35">
             <div className="bg-dark-01/5 rounded-2xl h-60 flex justify-center items-center">

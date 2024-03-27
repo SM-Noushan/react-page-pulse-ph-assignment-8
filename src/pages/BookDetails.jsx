@@ -1,6 +1,7 @@
 import { useLoaderData, useNavigation, useParams } from "react-router-dom";
 import Loader from "../components/Loader";
 import Button from "../components/Button";
+import { saveBook } from "../utils";
 
 const BookDetails = () => {
     const navigation = useNavigation();
@@ -8,7 +9,6 @@ const BookDetails = () => {
     const { id } = useParams();
     const book = books.find(book => book.bookId == id);
     const {
-        bookId,
         image,
         tags,
         bookName,
@@ -19,7 +19,16 @@ const BookDetails = () => {
         publisher,
         yearOfPublishing,
         totalPages
-    } = book
+    } = book;
+    const storeBook = type => {
+        saveBook(book, type);
+    }
+    const addToRead = () => {
+        storeBook('read');
+    }
+    const addToWish = () => {
+        storeBook('wish');
+    }
     if (navigation.state === 'loading') return <Loader />;
     return (
         <section className="min-h-[calc(100dvh-436px)] my-24 font-work_sans">
@@ -64,8 +73,8 @@ const BookDetails = () => {
                         </tbody>
                     </table>
                     <div className="flex gap-2 mt-8 justify-center md:justify-start">
-                        <Button label={'Read'} styles="btn-md px-4.5 hover:bg-dark-01/20 border border-dark-01 text-dark-01" />
-                        <Button label={'Wishlist'} styles="bg-blue-01 btn-md px-4.5 hover:bg-blue-01/80 text-white" />
+                        <Button handleOnClickParent={addToRead} label={'Read'} styles="btn-md px-4.5 hover:bg-dark-01/20 border border-dark-01 text-dark-01" />
+                        <Button handleOnClickParent={addToWish} label={'Wishlist'} styles="bg-blue-01 btn-md px-4.5 hover:bg-blue-01/80 text-white" />
                     </div>
                 </div>
             </div>
