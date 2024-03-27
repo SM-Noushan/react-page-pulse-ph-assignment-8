@@ -20,14 +20,14 @@ export const saveBook = (book, type) => {
             return toast.error(`Unable to add already read book to wish list!`)
     }
     if (type === 'read')
-        deleteBook(book.bookId);
+        deleteBook('wish', book.bookId);
     books.push(book);
     localStorage.setItem(type, JSON.stringify(books));
     return toast.success(`Successfully added to ${type} list!`);
 }
 // delete data
-export const deleteBook = id => {
-    const books = getBooks('wish');
+export const deleteBook = (type, id) => {
+    const books = getBooks(type);
     const remainingBooks = books.filter(b => b.bookId !== id);
-    localStorage.setItem('wish', JSON.stringify(remainingBooks));
+    localStorage.setItem(type, JSON.stringify(remainingBooks));
 }
