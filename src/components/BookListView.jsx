@@ -1,4 +1,3 @@
-import { getBooks } from "../utils";
 import { SlLocationPin } from "react-icons/sl";
 import { HiOutlineUsers } from "react-icons/hi2";
 import { TbWallpaper } from "react-icons/tb";

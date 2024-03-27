@@ -4,9 +4,9 @@ import { Link, Outlet } from "react-router-dom";
 const ListedBooks = () => {
     const [tabIndex, setTabIndex] = useState(1);
     return (
-        <section className="my-20 min-h-[669vh] font-work_sans">
-            <h1 className="text-center text-[40px] font-bold font-playfair_display mb-12 bg-dark-01/5 rounded-2xl py-10">Books</h1>
-            <div className="text-center my-20">
+        <section className="my-20 font-work_sans">
+            <h1 className="text-center text-[40px] font-bold font-playfair_display mb-4 bg-dark-01/5 rounded-2xl py-10">Books</h1>
+            <div className="text-center mb-20">
                 {/* <div className="dropdown"> */}
                 <details className="dropdown dropdown-bottom">
                     <summary tabIndex={0} role="button" className="m-1 btn text-xl font-medium bg-green-01 hover:bg-green-01/80 text-white">Sort By<FaChevronDown />
