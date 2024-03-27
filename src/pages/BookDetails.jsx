@@ -59,7 +59,7 @@ const BookDetails = () => {
                                 <td className="font-semibold">{totalPages}</td>
                             </tr>
                             <tr>
-                                <th className="pl-0 opacity-70">Published:</th>
+                                <th className="pl-0 opacity-70">Publisher:</th>
                                 <td className="font-semibold">{publisher}</td>
                             </tr>
                             <tr>

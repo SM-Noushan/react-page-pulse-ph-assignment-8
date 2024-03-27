@@ -13,8 +13,8 @@ const ListedBooks = () => {
                     </summary>
                     <ul tabIndex={0} className="menu dropdown-content z-[1] rounded-box w-40 space-y-2 -left-3">
                         <button className="cursor-pointer hover:bg-dark-01/15 rounded-md bg-dark-01/10 py-1">Rating</button>
-                        <button className="cursor-pointer hover:bg-dark-01/15 rounded-md bg-dark-01/10 py-1">Number of ages</button>
-                        <button className="cursor-pointer hover:bg-dark-01/15 rounded-md bg-dark-01/10 py-1">Publish year</button>
+                        <button className="cursor-pointer hover:bg-dark-01/15 rounded-md bg-dark-01/10 py-1">Number of pages</button>
+                        <button className="cursor-pointer hover:bg-dark-01/15 rounded-md bg-dark-01/10 py-1">Published year</button>
                     </ul>
                 </details>
                 {/* </div> */}
