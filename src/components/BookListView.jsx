@@ -4,7 +4,7 @@ import { TbWallpaper } from "react-icons/tb";
 import { CiSquareRemove } from "react-icons/ci";
 import Button from "./Button";
 
-const BookListView = ({ book, handleDelete }) => {
+const BookListView = ({ book, handleDelete, handleSort }) => {
     const {
         bookId,
         image,

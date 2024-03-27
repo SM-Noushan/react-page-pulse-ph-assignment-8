@@ -3,22 +3,41 @@ import { deleteBook, getBooks } from "../utils";
 import BookListView from "./BookListView";
 import NoData from "./NoData";
 import toast from "react-hot-toast";
+import { useOutletContext } from "react-router-dom";
+import Loader from "./Loader";
 
 const Wishlist = () => {
-    const [books, setBooks] = useState([]);
+    const { sortType, wishBooks, setWishBooks } = useOutletContext();
+    const [loader, setLoader] = useState(true);
     useEffect(() => {
-        setBooks(getBooks('wish'));
+        setLoader(true);
+        setWishBooks(getBooks('wish'));
+        setLoader(false);
     }, [])
+    useEffect(() => {
+        if (sortType === 'default')
+            return;
+        setLoader(true);
+        setWishBooks([...getBooks('wish').sort((a, b) => {
+            return b[sortType] - a[sortType];
+        })]);
+        setLoader(false);
+    }, [sortType])
     const handleDelete = id => {
         deleteBook('wish', id);
         toast.success('Removed successfully');
-        setBooks(getBooks('wish'));
+        setWishBooks(getBooks('wish'));
     }
-    if (!books.length) return <NoData />
     return (
         <>
             {
-                books.map(book => <BookListView key={book.bookId} book={book} handleDelete={handleDelete} />)
+                loader ?
+                    <Loader />
+                    :
+                    !wishBooks.length ?
+                        <NoData />
+                        :
+                        wishBooks.map(book => <BookListView key={book.bookId} book={book} handleDelete={handleDelete} />)
             }
         </>
     );
