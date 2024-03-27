@@ -7,6 +7,7 @@ import ListedBooks from "../pages/ListedBooks";
 import Readbooks from "../components/Readbooks";
 import Wishlist from "../components/Wishlist";
 import PagesToRead from "../pages/PagesToRead";
+import SeeAllBooks from "../pages/SeeAllBooks";
 
 export const router = createBrowserRouter([
     {
@@ -17,6 +18,11 @@ export const router = createBrowserRouter([
             {
                 path: '/',
                 element: <Home />,
+            },
+            {
+                path: '/our-collection',
+                element: <SeeAllBooks />,
+                loader: () => fetch('/data.json')
             },
             {
                 path: '/listed-books',

@@ -10,7 +10,7 @@ const NoData = () => {
                     <polygon fill="currentColor" points="383.958 182.63 360.042 161.37 338.671 185.412 314.63 164.042 293.37 187.958 317.412 209.329 296.042 233.37 319.958 254.63 341.329 230.588 365.37 251.958 386.63 228.042 362.588 206.671 383.958 182.63"></polygon>
                 </svg>
                 <p className="text-3xl">Looks like you have not bookmarked any book!</p>
-                <Link to="/" className="relative inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold text-dark-01 transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 group">
+                <Link to="/our-collection" className="relative inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold text-dark-01 transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 group">
                     <span className="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-green-01 group-hover:h-full"></span>
                     <span className="absolute right-0 pr-4 duration-200 ease-out group-hover:translate-x-12">
                         <svg className="w-5 h-5 rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>

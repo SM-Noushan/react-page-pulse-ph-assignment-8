@@ -13,7 +13,7 @@ const ListedBooks = () => {
     }, [])
     let location = useLocation();
     return (
-        <section className="my-20 font-work_sans">
+        <section className="my-12 font-work_sans">
             <h1 className="text-center text-[40px] font-bold font-playfair_display mb-4 bg-dark-01/5 rounded-2xl py-10">Books</h1>
             <div className="text-center mb-20">
                 {/* <div className="dropdown"> */}
